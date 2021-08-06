@@ -1,0 +1,16 @@
+---------------BASIC GIT COMMANDS---------------
+mkdir project -- Makes a folder named projects
+git init      -- Activates git
+git ls        -- Gives the list of items in a folder
+git ls -a     -- Gives the list of items in a folder along with the hidden files
+touch hi.txt  -- Creates a text file named hi
+git status    -- Gives the current condition of the git
+git add .     -- Adds all the files in the folder to the staging area 
+git commit -m "Message" -- Commits all the files in the staging are to the repo with a comment as Message
+cat hi.txt    -- Shows the content of hi.txt
+git log       -- Shows thw record of all the commits made
+rm -rf hi.txt -- Deletes the file hi.txt
+git reset [hash code] -- Unstages all the commits above this hash
+git stash     -- Put the flies in the staging area on hold
+git stash pop -- Brings back all the files from the staging area
+git stash clear -- Removes the flies from the stash area.  
